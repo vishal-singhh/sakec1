@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Building') {
             steps {
-                echo 'Building Project Running...'
+                echo 'Building Project Vishal Running...'
                 echo "Running ${env.BUILD_ID}\n${env.BUILD_DISPLAY_NAME} on ${env.NODE_NAME}\nand JOB ${env.JOB_NAME}"
             }
         }
